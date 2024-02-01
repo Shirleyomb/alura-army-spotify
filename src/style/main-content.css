@@ -1,0 +1,103 @@
+/* HEADER */
+
+.main-container{
+    max-width: 80vw;
+    height: 100vh;
+    margin-left: 320px;
+    margin-right: 56px;
+}
+
+.header__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    width: 99%;
+    margin: 12px;;
+    border-radius: 8px;
+    background: linear-gradient(180deg, rgba(184, 75, 200, 0.88) 0%, rgba(204, 45, 169, 0.83) 0.01%, rgba(150, 10, 160, 0.83) 0.02%, rgba(171, 17, 159, 0.89) 20.31%, #D4209D 59.9%);
+    
+  }
+  
+  .header__navigation .navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .header__navigation .navigation .arrow-left {
+    margin-right: 1.25rem;
+  }
+  
+  .arrow-left,
+  .arrow-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--bg-icon);
+    background-color:var(--bg-arrow-color);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .header__login {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__search {
+    display: flex;
+    align-items: center;
+    width: 364px;
+    height: 48px;
+    margin-left: 8px;
+    background-color: rgb(240, 255, 240, 0.5);
+    border-radius: 500px;
+    border: 1px solid transparent;
+  }
+  
+  .header__search img {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+  }
+  
+  .header__search input {
+    background: transparent;
+    border: none;
+    padding: 0px 100px 0 12px;
+    text-overflow: ellipsis;
+    overflow:hidden;
+    white-space: nowrap;
+    outline: none;
+  }
+  
+  .header__login .subscribe {
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #4b0082;
+    color: #4b0082;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+  
+  .header__login .login {
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #4b0082;
+    color: #4b0082;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    margin-left: 10px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
